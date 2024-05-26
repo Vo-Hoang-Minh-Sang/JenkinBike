@@ -20,7 +20,7 @@ public class BikeController {
     private final BikeService bikeService;
 
     private final RestTemplateConfig restTemplateConfig;
-
+    //retry
     @Autowired
     private RetryTemplate retryTemplate;
 
